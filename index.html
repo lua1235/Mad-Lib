@@ -12,26 +12,30 @@
     <hr>
     <h2>Mad Lib Instructions</h2>
     <p>Fill in all of the boxes, then click the <em>Mad Lib</em> button</p>
-        <p>Plural Noun: <input type="text" id="plural"></input></p>
+  
     <ul>
-        <li>Adjective: <input type="text" id="Adjin"></input></li>
-        <li>Present Tense Verb: <input type="text" id="PTVin"></input></li>
-        <li>Noun: <input type="text" id="Nin"></input></li>
-        <li>Adverb: <input type="text" id="Advin"></input></li>
-        <li>Pronoun: <input type="text" in="Proin"></input></li>
-        <li>Location: <input type="text" in="Locin"></input></li>
+        <li>Plural Noun: <input type="text" id="plural"></li>
+        <li>Adjective: <input type="text" id="adjective"></li>
+        <li>Present Tense Verb: <input type="text" id="presentverb"></li>
+        <li>Noun: <input type="text" id="noun"></li>
+        <li>Adverb: <input type="text" id="adverb"></li>
+        <li>Pronoun: <input type="text" id="pronoun"></li>
+        <li>Location: <input type="text" id="location"></li>
     </ul>
-    <p><button id="sub" onclick="update(this.body)">Mad Lib</button></p>
+    <p><button id="sub">Mad Lib</button></p>
     <hr>
     <h2>Mad Lib results</h2>
-    <p id="res1">
+    <div id="out">
+      <p id="res1">
         "There are too many <span id="PN">_____</span> on this <span id="Adj">_____</span> airplane!", I screamed. 
         "Somebody has to <span id="PTV">_____</span> on the <span id="Noun">_____</span> to solve this problem"
-    </p>
-    <p id="res2">
-        I have <span id="Adv">_____</span> seen this many <span id="Ntwo">_____</span> on flights over <span id="Loc">_____</span> airspace before,
-        so it surprised <span id="Pro">_____</span> a lot.
-    </p>
+      </p>
+      <p id="res2">
+          I have <span id="Adv">_____</span> seen this many <span id="Ntwo">_____</span> on flights over <span id="Loc">_____</span> airspace before,
+          so it surprised <span id="Pro">_____</span> a lot.
+      </p>
+    </div>
+   
 	<script src="script.js"></script>
   </body>
 </html>

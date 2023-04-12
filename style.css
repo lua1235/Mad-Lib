@@ -29,6 +29,9 @@ button {
     border-radius: 5px;
 
 }
+#out {
+    border: 5px dotted purple;
+}
 #res1, #res2 {
     font-size: 11px;
     padding: 10px;
